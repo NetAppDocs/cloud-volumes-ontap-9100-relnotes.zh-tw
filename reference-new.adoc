@@ -16,7 +16,7 @@ summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 [role="lead"]
 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 
-最新版Cloud Manager也會提供其他功能與增強功能。請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager版本資訊"^] 以取得詳細資料。
+最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
 
 
 
@@ -51,18 +51,18 @@ NOTE: 如果您選擇單一節點系統、且虛擬機器支援Ultra SSD、則�
 
 
 
-== Cloud Manager Connector的必要版本
+== 所需版本的BlueXP Connector
 
-Cloud Manager Connector必須執行3.9.11或更新版本、才能部署新Cloud Volumes ONTAP 的版本號、並將現有系統升級至9.10.0。
+BlueXP Connector必須執行3.9.11版或更新版本、才能部署新Cloud Volumes ONTAP 的版本號、並將現有系統升級至9.10.0版。
 
 
 
 == 升級附註
 
-* 必須從 Cloud Manager 完成升級。 Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
-* 您可以從Cloud Volumes ONTAP 9.9.1版升級至E29 9.10.0。Cloud Manager會提示您將現有Cloud Volumes ONTAP 的版本升級至9.10.0。
+* 必須從BlueXP完成升級。Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
+* 您可以從Cloud Volumes ONTAP 9.9.1版升級至E29 9.10.0。BlueXP會提示您將現有Cloud Volumes ONTAP 的版本更新為9.10.0。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在Cloud Manager通知您的情況下進行升級"^]。
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
 
 * 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
 * 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。
