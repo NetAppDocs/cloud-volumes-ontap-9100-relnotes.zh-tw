@@ -272,7 +272,6 @@
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">最多可容納多個授權的系統容量</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">*單獨磁碟*</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">*磁碟+資料分層*</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">每個授權使用368TiB</block>
   <block id="e4da3b7fbbce2345d7772b0674a318d5" category="cell">5.</block>
   <block id="82c5a657ae8662e2146ad882dc2b2d0b" category="cell">160 TiB</block>
   <block id="c51ce410c124a10e0db5e4b97fc2af39" category="cell">13.</block>
@@ -377,8 +376,6 @@
   <block id="245cf9fb027a40ee8a30bfcbf5a0f859" category="cell">256 TB ^1^</block>
   <block id="fb477a816dd39a57a35e342288ae601b" category="cell">利用磁碟和冷資料分層、將系統容量最大化至Google Cloud Storage儲存庫</block>
   <block id="1a731420bbc4adfcc3e3c640955180d2" category="cell">視授權而定。請參閱上表。</block>
-  <block id="f001a5c220f0213e63339dfe3e66fb03" category="paragraph">此限制是由Google Cloud Platform中的虛擬機器限制所定義。</block>
-  <block id="c774172e35ab7294ce80989983a6d47e" category="paragraph">可將Google Cloud Platform磁碟分組為_aggregate。Cloud Volumes ONTAPAggregate可為磁碟區提供儲存設備。</block>
   <block id="78c305f4cc241040025b8466926183c4" category="cell">最大資料集合數^1^</block>
   <block id="524fcd5d2110ab8c4e98150340c8319b" category="list-text">99個用於單一節點</block>
   <block id="e60662dff3b10697270b44b2c551e944" category="list-text">64個（用於整個HA配對）</block>
@@ -389,7 +386,6 @@
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">邏輯儲存限制</block>
   <block id="73a985be794327e4a037c64d0184774a" category="cell">*儲存虛擬機器（SVM）*</block>
   <block id="835d5536792339ec4a51105123601003" category="cell">最大Cloud Volumes ONTAP 數目（HA配對或單一節點）</block>
-  <block id="b2734f21c300d02359bdc60073cc3bc5" category="cell">一個資料服務SVM和一個目的地SVM、用於災難恢復。如果來源SVM發生中斷、您可以啟動目的地SVM進行資料存取。一部資料服務SVM橫跨Cloud Volumes ONTAP 整個整個作業系統（HA配對或單一節點）。</block>
   <block id="324f218b8144e744b54eb58e0bf14eea" category="cell">16 TB</block>
   <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="e70747c71702cdc100bd5f592ed452be" category="summary">有多種授權選項可供Cloud Volumes ONTAP 選擇。每個選項都能讓您選擇符合需求的組態。</block>
@@ -614,7 +610,6 @@
   <block id="fc8746b925f8923889b77841242bf054" category="paragraph"><block ref="771bd01d5b66ba0bcb76d734267dc8bb" category="inline-link-rx"></block>。</block>
   <block id="c46270a9bdf069bd0e015f7953e02355" category="paragraph"><block ref="c46270a9bdf069bd0e015f7953e02355" category="inline-link-rx"></block></block>
   <block id="a990fdc46668be8e7f963c8df127bbe8" category="paragraph">在某些組態中、磁碟限制會讓您無法單獨使用磁碟來達到容量限制。在這些情況下、您可以達到容量上限<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。如需詳細資料、請參閱下方的容量和磁碟限制。</block>
-  <block id="74620547288f003c63c99ad0bb05f8b6" category="list-text">您現在可以購買Cloud Volumes ONTAP 多個節點型授權給某個以供使用的解決方案、以分配超過368TiB的容量。單一節點系統或 HA 配對可購買的授權數量不受限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。</block>
   <block id="c0ad13124302d4d047c0f916a6418182" category="paragraph"><block ref="cc3941262f254d1055804ecddca39dec" category="inline-link-rx"></block>。</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -625,4 +620,12 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB （需要多個授權）</block>
+  <block id="597fec4023c3cd6dca8761ca185b9c61" category="paragraph">^1^ 此限制是由 Google Cloud 中的虛擬機器限制所定義。</block>
+  <block id="b3ffb91616ad248d4f6468f29260116d" category="paragraph">Cloud Volumes ONTAP 將 Google Cloud 磁碟分組為 _Aggregate 。Aggregate可為磁碟區提供儲存設備。</block>
+  <block id="e03f6b8b2723ce582552c447da083deb" category="cell">一個資料服務SVM和一個目的地SVM、用於災難恢復。如果來源 SVM 發生中斷、您可以啟動目的地 SVM 以進行資料存取。^1^
+
+單一資料服務SVM橫跨Cloud Volumes ONTAP 整個支援系統（HA配對或單一節點）。</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="list-text">您可以為 Cloud Volumes ONTAP BYOL 單一節點或 HA 配對系統購買多個節點型授權、以分配超過 368 TiB 的容量、最多可分配 2 PIB 的最大測試和支援系統容量限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。雖然 Cloud Volumes ONTAP 支援最多 2 個 PIB 的最大測試和支援系統容量、但超過 2 個 PIB 限制會導致系統組態不受支援。</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="list-text">AWS Secret Cloud 和 Top Secret Cloud 地區支援從 Cloud Volumes ONTAP 9.12.1 開始購買多個節點型授權。</block>
 </blocks>
